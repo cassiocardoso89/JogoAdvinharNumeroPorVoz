@@ -1,15 +1,9 @@
 const menorValor = 1
-const maiorValor = 1000
+const maiorValor = 100
 
 const numeroSecreto = parseInt(Math.random() * maiorValor + 1)
 
-
-
-const elementoMenorValor = document.getElementById('menor-valor')
-elementoMenorValor.innerHTML = menorValor
-const elementoMaiorValor = document.getElementById('maior-valor')
-elementoMaiorValor.innerHTML = maiorValor
-
-
+document.getElementById('menor-valor').innerHTML = menorValor
+document.getElementById('maior-valor').innerHTML = maiorValor
 
 console.log(numeroSecreto)
