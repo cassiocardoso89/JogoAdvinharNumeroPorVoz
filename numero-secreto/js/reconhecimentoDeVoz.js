@@ -25,3 +25,9 @@ function ExibeChuteNaTela(chute)
     Verifica(chute)
 }
     recognition.addEventListener('end', () => recognition.start())
+
+    document.body.addEventListener('click', e =>{
+    if(e.target.id == 'btnRestartID')
+    {
+        window.location.reload() 
+    }})

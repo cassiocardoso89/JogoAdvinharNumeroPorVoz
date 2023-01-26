@@ -41,3 +41,21 @@ h3{
     padding: 10px;
     margin: 20px;
 }
+
+.btnRestart{
+    background-color: transparent;
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    /* font-weight: bolder; */
+    font-size: 2em;
+    padding: 30px;
+    margin-top: 100px;
+    border: 5px var(--primary-color) solid;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.numeroCerto{
+    font-size: 2em;
+    font-weight:bold;
+}
