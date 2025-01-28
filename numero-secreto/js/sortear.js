@@ -1,5 +1,5 @@
 const menorValor = 1
-const maiorValor = 100
+const maiorValor = 5
 
 const numeroSecreto = parseInt(Math.random() * maiorValor + 1)
 
